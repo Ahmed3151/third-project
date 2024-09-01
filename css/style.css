@@ -40,10 +40,10 @@
 .picture1,.picture2{
     width: 100%;
     height: 45vh;
-    background-image: url(../Images/hieroglyph-7883891_1280.webp);
+    background-image: url(../images/hieroglyph-7883891_1280.webp);
     background-attachment: fixed;
 }
-.picture2{background-image: url(../Images/nature-7910337_1280.webp);}
+.picture2{background-image: url(../images/nature-7910337_1280.webp);}
 .popular{height: 100px;}
  .popular-card::after{
     position: absolute;
