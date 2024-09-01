@@ -1,0 +1,116 @@
+.carousel-caption{
+    background-color: #67bbc1;
+    opacity: 0.8;
+}
+.carousel-caption:hover{opacity: 1;}
+.carousel-icon{
+    position: absolute;
+    font-size: 60px;
+    color: #61bcc3;
+    padding-top: 80px;
+}
+.icon1{
+    margin: 70px 0px;
+    margin-left: 1430px;
+}
+.icon2{
+    margin: 150px 0px;
+    margin-left: 1430px;
+}
+.icon3{
+    margin: 230px 0px;
+    margin-left: 1430px;
+}
+.icon4{
+    margin: 310px 0px;
+    margin-left: 1430px;
+}
+.icon5{
+    margin: 390px 0px;
+    margin-left: 1430px;
+}
+.Welcome,.wtiting,.popular{background-color:rgb(159, 228, 228);}
+.Welcome-title,.popular-title,.news-title,.join-title,.info-title{color: rgb(169, 98, 234);}
+.Welcome-btn:hover{background-color: black;}
+.distination,.transilation{
+    background-color:rgb(88, 154, 154);
+    height: 150px;
+}
+.transilation{height: 70px;}
+.picture1,.picture2{
+    width: 100%;
+    height: 45vh;
+    background-image: url(../Images/hieroglyph-7883891_1280.webp);
+    background-attachment: fixed;
+}
+.picture2{background-image: url(../Images/nature-7910337_1280.webp);}
+.popular{height: 100px;}
+ .popular-card::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgb(51, 165, 241);
+    opacity: 0;
+ }
+.popular-card:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.popular-card::before{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(51, 165, 241);
+    opacity: 0;
+ }
+.popular-card:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.thanks-card{
+    position: relative;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.overlay{
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+.thanks-card:hover{
+    transform: scale(0.85,0.85);
+}
+.thanks-card:hover .overlay{
+    background-color: rgba(57, 197, 236, 0.7);
+}
+.card:hover .line{
+    animation-name: change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    from{width: 50px;}
+    to{width: 100px;}
+}
+.div3:hover{
+    background-color: red;
+}
+.card:hover  .card-image{
+    transform: scale(1.01);
+    transition: 1s;
+}
+.ppp:hover{cursor: pointer;}
